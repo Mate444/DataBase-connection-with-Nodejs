@@ -1,0 +1,28 @@
+{
+  "name": "codegig",
+  "version": "1.0.0",
+  "description": "Simple find job app for coders",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Matee Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradtraversy/codegig/issues"
+  },
+  "homepage": "https://github.com/bradtraversy/codegig#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "handlebars": "^4.5.0"
+  }
+}
